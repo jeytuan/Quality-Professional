@@ -17,3 +17,6 @@ git commit -m "first commit, added first production commit test"
 
 # finalize and push all new changes
 git push
+
+# pull all updates once cloned
+git pull
