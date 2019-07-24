@@ -1,4 +1,4 @@
-]\# Quality-Professional
+Quality-Professional
 Test Frameworks, dashboards and tools for QA related work
 
 Core git commands
