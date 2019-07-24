@@ -21,3 +21,6 @@ git push
 
 ## pull all updates once cloned
 git pull
+
+## create a new personal access token for new work machines
+https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line
