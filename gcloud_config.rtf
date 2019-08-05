@@ -4,6 +4,10 @@ Environment Preparation
 
 Obtain Rolling Release of Kali
 
+From these instructions: https://www.youtube.com/watch?v=25csweVVqLE
+
+- disable audio, floppy, format as .qcow file, set 15GB storage, and other Kali Install requirements
+
 Using VirtualBox, Configure SSHD service
   apt-get install openssh-server
 
@@ -39,15 +43,6 @@ ssh root@34.94.1.211
 
 Once the VMDK is uploaded to the busythunder bucket in Fysight project, deploy the VM in compute engine
   - Research access privileges for Linh
-  - Sandbox for this curriculum
-      https://www.packtpub.com/networking-and-servers/mastering-machine-learning-penetration-testing?utm_source=github&utm_medium=repository&utm_campaign=9781788997409
-      https://learning.oreilly.com/library/view/mastering-machine-learning/9781788997409/51fdbf72-612c-4521-9847-18ae85b64bbe.xhtml
-      https://github.com/PacktPublishing/Mastering-Machine-Learning-for-Penetration-Testing/tree/master/Chapter01
-      https://static.packt-cdn.com/downloads/MasteringMachineLearningforPenetrationTesting_ColorImages.pdf
 
-gcloud compute images import my-imported-image \
-  --source-file gs://fysight/busythunder.vmdk \
-  --os debian-9
 
 https://www.youtube.com/watch?v=25csweVVqLE
-  Dependencies - GNU-Tar, Google Cloud SDK 
