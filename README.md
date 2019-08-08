@@ -7,6 +7,9 @@ Core git commands
 ## to clone master version of directory
 git clone https://github.com/jeytuan/Quality-Professional.git
 
+## check if local repo is up to date
+git remote show origin
+
 ## to check difference between your working directory and master version
 git status
 
